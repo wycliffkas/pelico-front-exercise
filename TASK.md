@@ -1,22 +1,23 @@
-### Task
+# Task
 
 Create web store application from scratch. Use React + Typescript
 
-Product Listing: /products
+### Product Listing: /products
 - View all available products
 - Pagination
 
-Product detail: /products/:productId
+### Product detail: /products/:productId
 - View product information
 - Add to cart
 
-Cart: /cart
+### Cart: /cart
 - Show items added to cart
 - Delete item from cart
 
-API:
+## API
 https://fakestoreapi.com/
 
 
+### Notes
 Project has `react-router-dom` v6 installed. Documentation:
 https://reactrouter.com/docs/en/v6/getting-started/overview
