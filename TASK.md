@@ -1,6 +1,8 @@
 # Task
 
-Create web store application from scratch. Use React + Typescript
+Clone and make use of current repo as a basis.
+
+Create web store application.
 
 ### Product Listing: /products
 - View all available products
