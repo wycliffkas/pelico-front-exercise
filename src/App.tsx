@@ -1,10 +1,16 @@
 import './App.css'
+import { BrowserRouter, Route, Routes} from "react-router-dom"
+import Products from "./components/Products"
+import Product from "./components/Product"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Web store application</h1>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Products />}/>
+      <Route path="/:id" element={<Product />}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
